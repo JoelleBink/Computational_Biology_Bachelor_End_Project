@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 train_data = pd.read_csv('CHEMBL239_dataset_train.csv')
 test_data = pd.read_csv('CHEMBL239_dataset_test.csv')
 
-#get x and y values
+# Get x and y values
 y_train = train_data.loc[:, 'exp_mean']
 y_test = test_data.loc[:, 'exp_mean']
 X_train = train_data.loc[:, 'Bit 1' : 'Bit 1024']
@@ -21,16 +21,16 @@ r2_value = []
 neighbors = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 for i in tqdm(range(1, 10)):
-    # create model
+    # Create model
     knn = KNeighborsRegressor(n_neighbors=i, n_jobs=-1)
 
-    # fit the data
+    # Fit the data
     knn.fit(X_train,y_train)
 
-    # make prediction
+    # Make prediction
     y_pred_knn=knn.predict(X_test)
 
-    # compute regression metrics
+    # Compute regression metrics
     variance_score.append(explained_variance_score(y_test, y_pred_knn))
     max_error_score.append(max_error(y_test, y_pred_knn))
     r2_value.append(r2_score(y_test, y_pred_knn))
@@ -38,7 +38,7 @@ for i in tqdm(range(1, 10)):
 # Create figures
 fig, axes = plt.subplots(1, 3,  figsize=(20, 5))
 
-# plot figures
+# Plot figures
 axes[0].plot(neighbors, variance_score, label = 'variance_score')
 axes[1].plot(neighbors, max_error_score, label = 'max_error_score')
 axes[2].plot(neighbors, r2_value, label = 'r2_score')
