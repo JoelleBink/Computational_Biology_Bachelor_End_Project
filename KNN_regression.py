@@ -5,7 +5,7 @@ import pandas as pd
 from tqdm import tqdm
 import matplotlib.pyplot as plt
 
-# load the data and create test and validation set
+# load the data
 train_data = pd.read_csv('CHEMBL239_dataset_train.csv')
 test_data = pd.read_csv('CHEMBL239_dataset_test.csv')
 
