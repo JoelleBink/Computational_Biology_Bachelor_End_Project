@@ -1,0 +1,2 @@
+model,chem,descriptor,mean_squared_error_score,variance_score,max_error_score,r2_value,rmsep,q2
+knn,224,constitutional,[1.357976959301963],[-0.01397224068480818],[3.460873093716611],[-0.014258863264944521],[1.1653226846251483],[-1.0562460106597706]

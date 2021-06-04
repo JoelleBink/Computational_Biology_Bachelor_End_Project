@@ -1,0 +1,2 @@
+model,chem,descriptor,mean_squared_error_score,variance_score,max_error_score,r2_value,rmsep,q2
+knn,224,CDKmolprop,[1.3472567636177017],[-0.006082596571476806],[3.201011123205755],[-0.006252060635328682],[1.1607139025693203],[-1.0400135116779134]

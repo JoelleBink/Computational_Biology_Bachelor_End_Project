@@ -1,0 +1,2 @@
+model,chem,descriptor,mean_squared_error_score,variance_score,max_error_score,r2_value,rmsep,q2
+svr,224,CATS,[1.2143164162270168],[0.09308178389282462],[3.5102001463699155],[0.09303970179327126],[1.1019602607294952],[-0.8387155020869896]

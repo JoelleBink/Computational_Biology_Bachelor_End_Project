@@ -1,0 +1,2 @@
+model,chem,descriptor,mean_squared_error_score,variance_score,max_error_score,r2_value,rmsep,q2
+svr,4005,MorganFP,[1.2472199456674076],[0.013428700176708386],[3.0240628783659993],[0.011759277390337441],[1.1167900186102164],[-1.001086205710764]
