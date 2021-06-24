@@ -1,0 +1,2 @@
+model,chem,descriptor,r2_value,RMSEP,Q2F3
+svr,239,CDKmolprop,[-1390853331.0605934],[1369737.4656330382],[-1369383333.9818087]

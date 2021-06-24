@@ -1,0 +1,2 @@
+model,chem,descriptor,r2_value,RMSEP,Q2F3
+knn,224,constitutional,[0.0791123630380769],[0.8112507048176546],[0.01634488023750147]

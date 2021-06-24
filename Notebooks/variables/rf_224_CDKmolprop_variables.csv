@@ -1,2 +1,2 @@
-model,chem,descriptor,r2_value,rmsep,q2
-rf,224,CDKmolprop,[0.16504270556481448],[1.0573138629891792],[-0.6927410426830487]
+model,chem,descriptor,r2_value,RMSEP,Q2F3
+rf,224,CDKmolprop,[0.8595455120096736],[0.8593995988343092],[0.17410051039080943]

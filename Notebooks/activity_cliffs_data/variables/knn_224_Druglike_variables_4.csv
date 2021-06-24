@@ -1,0 +1,2 @@
+model,chem,descriptor,r2_value,RMSEP,Q2F3
+knn,224,Druglike,[-3.167046078511019],[0.8836703664324259],[-2.040171112461256]
