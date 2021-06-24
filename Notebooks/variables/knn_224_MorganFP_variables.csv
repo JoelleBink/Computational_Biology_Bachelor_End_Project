@@ -1,2 +1,6 @@
 model,chem,descriptor,r2_value,RMSEP,Q2F3
+<<<<<<< HEAD
 knn,224,MorganFP,[0.0],[1.2416042651868566],[-inf]
+=======
+knn,224,MorganFP,[0.7410393607955932],[0.7406929555948479],[0.4774254863712294]
+>>>>>>> 7b7f284e87ce8343eb0b99287e96acc6ea0a01e5

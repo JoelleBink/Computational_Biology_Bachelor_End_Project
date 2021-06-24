@@ -49,6 +49,7 @@ def cliffs_finder_test(smiles_train, smiles_test, y_train, y_test, activity_thr=
         max_similarities.append(max_sim)
         if max_sim > similarity_thr:
             neigh_index = sim.index(max(sim))
+<<<<<<< HEAD
             if i < len(y_test) and neigh_index < len(y_train):
                 delta = np.abs(y_test[i] - y_train[neigh_index])
                 if delta > activity_thr:
@@ -57,6 +58,15 @@ def cliffs_finder_test(smiles_train, smiles_test, y_train, y_test, activity_thr=
                 else:
                     iscliff.append(False)
                     index_cliff.append('nan')
+=======
+            delta = np.abs(y_test[i] - y_train[neigh_index])
+            if delta > activity_thr:
+                iscliff.append(True)
+                index_cliff.append(neigh_index)
+            else:
+                iscliff.append(False)
+                index_cliff.append('nan')
+>>>>>>> 7b7f284e87ce8343eb0b99287e96acc6ea0a01e5
         else:
             iscliff.append(False)
             index_cliff.append('nan')
