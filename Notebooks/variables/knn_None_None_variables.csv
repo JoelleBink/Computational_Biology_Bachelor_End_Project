@@ -1,2 +1,0 @@
-model,chem,descriptor,mean_squared_error_score,variance_score,max_error_score,r2_value,rmsep
-knn,,,[0.7349914373027576],[0.33837937891011405],[4.218212452553721],[0.33243422651977983],[0.8573164160931235]

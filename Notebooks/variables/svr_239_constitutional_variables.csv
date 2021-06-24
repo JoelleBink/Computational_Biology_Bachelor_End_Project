@@ -1,2 +1,2 @@
-model,chem,descriptor,r2_value,rmsep,q2
-svr,239,constitutional,[-0.10072358297470618],[1.0943844481140785],[-1.1317380659444782]
+model,chem,descriptor,r2_value,RMSEP,Q2F3
+svr,239,constitutional,[-22.447152252053037],[1.1101941286547796],[-26.15659809510957]

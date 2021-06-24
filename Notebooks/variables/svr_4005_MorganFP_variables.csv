@@ -1,2 +1,2 @@
-model,chem,descriptor,r2_value,rmsep,q2
-svr,4005,MorganFP,[0.011759277390337441],[1.1167900186102164],[-1.001086205710764]
+model,chem,descriptor,r2_value,RMSEP,Q2F3
+svr,4005,MorganFP,[0.7825239588878207],[0.6751625046059042],[0.4127742470129754]
